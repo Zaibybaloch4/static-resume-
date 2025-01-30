@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sour Gummy', sans-serif;
+    background-color: gainsboro;
+}
+
+main {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.left, .right {
+    background-color: rgb(247, 241, 235);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal, .skillSection, .language, .Education, .career, .experience {
+    margin: 1rem 0;
+}
+
+h1, h3 {
+    margin: 0.5rem 0;
+}
+
+.present {
+    background-color: green;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+.head {
+    color: #fff;
+    text-align: center;
+    background-color: green;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 30% 1fr;
+    }
+}
